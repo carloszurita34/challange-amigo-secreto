@@ -51,6 +51,7 @@ function sortearAmigo(){
 
 function limpiarCaja (){
     document.querySelector('#amigo').value = "";
+    listaAmigos.length = 0; // Borra todos los elementos del array
 }
 
 
